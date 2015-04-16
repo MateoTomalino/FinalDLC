@@ -1,0 +1,64 @@
+body{
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat;
+}
+
+h2{
+	margin-top: 0px;
+	font-family: Cambria;
+}
+
+h4 {
+	font-style: italic;
+	font-family: Cambria;
+}
+
+h5 {
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+
+p{
+	margin: 0;
+}
+
+li{
+	display: block;
+}
+
+.navbar-default {
+	background-color: #FDF3E0;
+	border-color: #F86053;
+}
+
+.form-group {
+	padding-left: 100px;
+}
+
+.container .logo {
+	margin-top: 20px;
+	margin-left: 75px;
+}
+
+.container .searchZone {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.form-group .form-control{
+	width: 400px;
+}
+
+.results{
+	margin-top: 200px;
+	margin-left: 100px;
+	position: fixed;
+}
+
+.results .paginate {
+	text-align: -webkit-center;
+}
+
+.paginate li a {
+	cursor: pointer;
+}
